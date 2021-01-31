@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Аз не вярвам в съществуването на Бог Радо" />
+  <HelloWorld msg="Аз не вярвам в съществуването на Бог Радо! Алабала" />
 </template>
 
 <script>

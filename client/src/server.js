@@ -30,11 +30,10 @@ server.get('*', async (req, res) => {
         <link rel="stylesheet" href="${manifest['app.css']}"/>
         <link href="/css/app.fb0c6e1c.css" rel="stylesheet">
       </head>
-
       <body>
-      <div id="app">
-      ${appContent}
-      </div>
+        <div id="app">
+        ${appContent}
+        </div>
       </body>
   </html>
     `;
