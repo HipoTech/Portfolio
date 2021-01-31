@@ -34,4 +34,4 @@ server.get('*', async (req, res) => {
   res.end(html);
 });
 
-server.listen(3100, console.log("Server active on port: 3100"));
+server.listen(3000, console.log("Server active on port: 3000"));
