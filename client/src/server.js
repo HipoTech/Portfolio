@@ -19,17 +19,24 @@ server.get('*', async (req, res) => {
   const appContent = await renderToString(app);
 
   const html = `
-      <html>
-      <hesd>
-      <title>Hello</title>
-      <link rel="stylesheet" href="${manifest['app.css']}"/>
-      </hesd>
+  <!DOCTYPE html>
+  <html lang="">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="/favicon.ico">
+        <title>client</title>
+        <link rel="stylesheet" href="${manifest['app.css']}"/>
+        <link href="/css/app.fb0c6e1c.css" rel="stylesheet">
+      </head>
+
       <body>
       <div id="app">
       ${appContent}
       </div>
       </body>
-      </html>
+  </html>
     `;
   res.end(html);
 });
