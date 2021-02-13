@@ -15,6 +15,9 @@
 <script>
 import checkUserAuthentication from "../plugins/helpers/checkUserAuthentication.js";
 export default {
+  beforeCreate() {
+    checkUserAuthentication(this.$store);
+  },
   watch: {
     $route() {
       checkUserAuthentication(this.$store);

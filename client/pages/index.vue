@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <LoginRegister v-if="!isLoggedIn" /> -->
     <Introduction />
     <About />
     <Resume />
