@@ -4,7 +4,7 @@
   "description": "rest server for ecommerce project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
