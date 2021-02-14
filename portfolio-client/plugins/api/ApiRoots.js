@@ -1,31 +1,31 @@
 export default {
-  main: 'http://localhost:3100/api',
+  main: 'https://portfolioapi.plamen-dimitrov.eu//api',
 
   // User
-  user: 'http://localhost:3100/api/user',
-  userRegister: `http://localhost:3100/api/user/register`,
-  userLogIn: 'http://localhost:3100/api/user/login',
-  userLogOut: 'http://localhost:3100/api/user/logout',
-  userAuthenticate: 'http://localhost:3100/api/user/auth',
+  user: 'https://portfolioapi.plamen-dimitrov.eu//api/user',
+  userRegister: `https://portfolioapi.plamen-dimitrov.eu//api/user/register`,
+  userLogIn: 'https://portfolioapi.plamen-dimitrov.eu//api/user/login',
+  userLogOut: 'https://portfolioapi.plamen-dimitrov.eu//api/user/logout',
+  userAuthenticate: 'https://portfolioapi.plamen-dimitrov.eu//api/user/auth',
 
   //Product
-  productCreate: 'http://localhost:3100/api/products/create',
-  productGetAll: 'http://localhost:3100/api/products/getAll',
-  productGetOne: 'http://localhost:3100/api/products/getOne',
-  productEditOne: 'http://localhost:3100/api/products/edit',
-  productDeleteOne: 'http://localhost:3100/api/products/delete',
+  productCreate: 'https://portfolioapi.plamen-dimitrov.eu//api/products/create',
+  productGetAll: 'https://portfolioapi.plamen-dimitrov.eu//api/products/getAll',
+  productGetOne: 'https://portfolioapi.plamen-dimitrov.eu//api/products/getOne',
+  productEditOne: 'https://portfolioapi.plamen-dimitrov.eu//api/products/edit',
+  productDeleteOne: 'https://portfolioapi.plamen-dimitrov.eu//api/products/delete',
 
   //Category
-  categoryCreate: 'http://localhost:3100/api/categories/create',
-  categoryGetAll: 'http://localhost:3100/api/categories/getAll',
-  categoryGetOne: 'http://localhost:3100/api/categories/getOne',
-  categoryEditOne: 'http://localhost:3100/api/categories/edit',
-  categoryDeleteOne: 'http://localhost:3100/api/categories/delete',
+  categoryCreate: 'https://portfolioapi.plamen-dimitrov.eu//api/categories/create',
+  categoryGetAll: 'https://portfolioapi.plamen-dimitrov.eu//api/categories/getAll',
+  categoryGetOne: 'https://portfolioapi.plamen-dimitrov.eu//api/categories/getOne',
+  categoryEditOne: 'https://portfolioapi.plamen-dimitrov.eu//api/categories/edit',
+  categoryDeleteOne: 'https://portfolioapi.plamen-dimitrov.eu//api/categories/delete',
 
   //Brand
-  brandCreate: 'http://localhost:3100/api/brands/create',
-  brandGetAll: 'http://localhost:3100/api/brands/getAll',
-  brandGetOne: 'http://localhost:3100/api/brands/getOne',
-  brandEditOne: 'http://localhost:3100/api/brands/edit',
-  brandDeleteOne: 'http://localhost:3100/api/brands/delete',
+  brandCreate: 'https://portfolioapi.plamen-dimitrov.eu//api/brands/create',
+  brandGetAll: 'https://portfolioapi.plamen-dimitrov.eu//api/brands/getAll',
+  brandGetOne: 'https://portfolioapi.plamen-dimitrov.eu//api/brands/getOne',
+  brandEditOne: 'https://portfolioapi.plamen-dimitrov.eu//api/brands/edit',
+  brandDeleteOne: 'https://portfolioapi.plamen-dimitrov.eu//api/brands/delete',
 } 
