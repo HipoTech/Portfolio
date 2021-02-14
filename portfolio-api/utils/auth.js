@@ -1,6 +1,6 @@
 const jwt = require('./jwt');
 const config = require('../config/config');
-const models = require('../models');
+const models = require('../models')
 
 function auth(redirectUnauthenticated = true) {
     return function (req, res, next) {
